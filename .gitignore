@@ -1,0 +1,7 @@
+.vagrant/*
+cookbooks/*
+shared/*
+tmp/*
+
+Gemfile.lock
+Cheffile.lock

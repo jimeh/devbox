@@ -1,0 +1,3 @@
+[submodule "data_bags"]
+	path = data_bags
+	url = git@bitbucket.org:jimeh/devbot-data_bags.git

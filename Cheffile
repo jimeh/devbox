@@ -1,0 +1,8 @@
+site 'http://community.opscode.com/api/v1'
+
+cookbook "apt"
+cookbook "git"
+cookbook "rbenv"
+cookbook "tmux", :git => "https://github.com/jimeh/tmux.git"
+cookbook "docker-ubuntu", :git => "https://github.com/jimeh/chef-docker-ubuntu.git"
+cookbook "emacs24-ppa", :git => "https://github.com/jimeh/chef-emacs24-ppa.git"

@@ -1,0 +1,12 @@
+name             "jimeh"
+maintainer       "Jim Myhrberg"
+maintainer_email "contact@jimeh.me"
+description      "Setup jimeh's private devbox"
+
+depends "apt"
+depends "git"
+depends "tmux"
+depends "docker-ubuntu"
+depends "emacs24-ppa"
+depends "rbenv"
+depends "heroku-toolbelt"
