@@ -8,7 +8,8 @@ default['rbenv']['user_installs'] = [
         {'name' => 'bundler'},
         {'name' => 'rake'},
         {'name' => 'foreman'},
-        {'name' => 'rbenv-rehash'}
+        {'name' => 'rbenv-rehash'},
+        {'name' => 'git_pissed'}
       ]
     }
   }
