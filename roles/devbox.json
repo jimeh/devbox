@@ -1,0 +1,12 @@
+{
+  "name": "devbox",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "run_list": [
+    "recipe[apt]",
+    "recipe[jimeh::users]",
+    "recipe[jimeh::packages]",
+    "recipe[jimeh::dotfiles]",
+    "recipe[jimeh::projects]"
+  ]
+}
