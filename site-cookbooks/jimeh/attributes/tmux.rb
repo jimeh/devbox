@@ -1,1 +1,1 @@
-default['tmux']['install_prefix'] = '/opt/tmux'
+default['tmux']['configure_options'] << "--prefix=/opt/tmux"

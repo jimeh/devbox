@@ -12,7 +12,7 @@ package "libarchive-zip-perl"
 #
 
 include_recipe "git"
-include_recipe "tmux::source"
+include_recipe "tmux::_source"
 include_recipe "docker-ubuntu"
 include_recipe "emacs24-ppa"
 include_recipe "heroku-toolbelt"
