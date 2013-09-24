@@ -85,9 +85,7 @@ Vagrant.configure("2") do |conf|
       end
 
       # Use a more recent version of Chef.
-      config.vm.provision :shell, :inline =>
-        "gem install chef -v 11.6.0 --no-rdoc --no-ri --conservative;" +
-        "gem install ruby-shadow -v 2.2.0 --no-rdoc --no-ri --conservative"
+      config.omnibus.chef_version = "11.6.0"
 
       # Run shell commands for box.
       (opts[:commands] || {}).each do |command|
