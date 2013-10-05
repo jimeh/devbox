@@ -4,4 +4,3 @@ shared/*
 tmp/*
 
 Gemfile.lock
-Cheffile.lock
