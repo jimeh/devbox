@@ -36,7 +36,7 @@ boxes = [
       'shared/jimeh'      => '/home/jimeh',
       '~/.dotfiles'       => '/host-shared/jimeh/dotfiles',
       '~/Projects'        => '/host-shared/jimeh/projects',
-      'shared/mysql_data' => '/host-shared/mysql_data'
+      'shared/mysql-data' => '/var/lib/mysql'
     }
   }
 ]
