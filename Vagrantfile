@@ -1,5 +1,7 @@
+#
 # Example box Hash format.
 #
+
 # {
 #   :name           => :name_of_vagrant_box,             # REQUIRED
 #   :ip             => '10.0.0.11',                      # REQUIRED
@@ -15,7 +17,6 @@
 #   :chef_role      => 'myrole',
 #   :chef_json      => {'local' => true, 'env_name' => 'development'}
 # }
-#
 
 
 #
@@ -24,7 +25,7 @@
 
 boxes = [
   {
-    :name          => 'default',
+    :name          => 'devbox',
     :primary       => true,
     :hostname      => 'devbox',
     :ip            => '3.3.3.2',
