@@ -5,6 +5,11 @@
 package "htop"
 package "texinfo"
 package "libarchive-zip-perl"
+package "build-essential"
+
+# Some build tools want a gcc-4.2 binary in specific locations >_<
+link("/usr/bin/gcc-4.2")       { to "/usr/bin/gcc" }
+link("/usr/local/bin/gcc-4.2") { to "/usr/bin/gcc" }
 
 
 #
