@@ -30,7 +30,7 @@ boxes = [
     :hostname      => 'devbox',
     :ip            => '3.3.3.2',
     :forward_agent => true,
-    :vbox_config   => {'--memory' => '1024'},
+    :vbox_config   => {'--memory' => '2048'},
     :chef_role     => "devbox",
     :nfs_folders   => {
       'shared/jimeh'      => '/home/jimeh',
